@@ -64,10 +64,10 @@ function loadPlayer(client)
 	}
 
 	if(server.game == GAME_GTA_III) {
-		spawnPlayer(client, [-362.94, 239.359, 60.654], 26, skin);
+		spawnPlayer(client, [-362.94, 239.359, 60.654], 0, 2);
 	}
 	else if(server.game == GAME_GTA_VC) {
-		spawnPlayer(client, [-592.0, 670.0, 11.0], 0, skin);
+		spawnPlayer(client, [-592.0, 670.0, 11.0], 0, 2);
 	}
 	else if (server.game == GAME_GTA_SA) {
 		spawnPlayer(client, [-711, 957, 12.4], 90/180*Math.PI, 182);
